@@ -1,0 +1,53 @@
+[1;31m
+Start test 1[0m
+[0;34mHere
+Enter command: 
+> exit
+Exiting the program.
+[1;31m
+Start test 2[0m
+Enter command: 
+> get 1
+ERROR
+Enter command: 
+> set 1 Hello world!
+OK
+Enter command: 
+> set 1 HelloWorld!
+OK
+Enter command: 
+> get 1
+HelloWorld!
+Enter command: 
+> delete 1
+OK
+Enter command: 
+> delete 1
+OK
+Enter command: 
+> get 1
+ERROR
+Enter command: 
+> set 55 Some text here
+OK
+Enter command: 
+	> get 55
+Some text here
+Enter command: 
+	> get 56
+ERROR
+Enter command: 
+> delete 55
+OK
+Enter command: 
+> delete 56
+OK
+Enter command: 
+> delete 100
+OK
+Enter command: 
+> delete 101
+ERROR
+Enter command: 
+> exit
+Exiting the program.
